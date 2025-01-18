@@ -3,52 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moude AI - Official Website</title>
+  <title>Moude AI - Home</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="scripts.js"></script>
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar">
+    <div class="logo">
+      < img src="images/logo.png" alt="Moude AI Logo">
+    </div>
     <ul>
       <li>Home</li>
       <li>About</li>
       <li>News</li>
       <li>Contact</li>
+      <li>AI Chat</li>
     </ul>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
+    <div class="hero-left-corner">
+      <h2>Latest AI News</h2>
+      <p>Learn more about how Moude AI is advancing technology globally.</p >
+    </div>
+
+    <!-- Ad Slider -->
     <div class="ad-slider">
-      <div class="ad-slide active" style="background-image: url('ad1.jpg');">
+      <div class="ad-slide active" style="background-image: url('images/ad1.jpg');">
         <div class="ad-content">
-          <h2>Moude AI - The Future of AI</h2>
-          <p>Explore how Moude AI is shaping the AI landscape with cutting-edge technology.</p >
+          <h2>Advancing the Future of AI</h2>
+          <p>Explore how Moude AI is revolutionizing artificial intelligence.</p >
         </div>
       </div>
-      <div class="ad-slide" style="background-image: url('ad2.jpg');">
+      <div class="ad-slide" style="background-image: url('images/ad2.jpg');">
         <div class="ad-content">
-          <h2>Revolutionizing AI Solutions</h2>
-          <p>Discover innovative AI-powered solutions with Moude AI.</p >
+          <h2>Innovative Solutions</h2>
+          <p>Discover AI-powered solutions transforming global industries.</p >
         </div>
       </div>
-      <div class="ad-slide" style="background-image: url('ad3.jpg');">
+      <div class="ad-slide" style="background-image: url('images/ad3.jpg');">
         <div class="ad-content">
-          <h2>AI News and Updates</h2>
-          <p>Stay informed with the latest news and developments in Moude AI.</p >
+          <h2>AI News & Updates</h2>
+          <p>Stay informed with the latest developments in Moude AI.</p >
         </div>
       </div>
     </div>
     <div class="slider-dots"></div>
   </section>
 
-  <!-- Main Content -->
+  <!-- News Section -->
   <main>
     <section class="news">
-      <h2>Latest AI News</h2>
-      <p>Learn more about how Moude AI is advancing technology globally.</p >
-      <!-- Add more news cards here -->
+      <h2>News</h2>
+      <div class="news-card" onclick="window.location.href='news.html'">
+        <h3>Groundbreaking AI Research at Moude AI</h3>
+        <p>Discover the latest breakthroughs in AI...</p >
+      </div>
+      <div class="news-card" onclick="window.location.href='news.html'">
+        <h3>Global Impact</h3>
+        <p>Learn about how Moude AI is reshaping industries worldwide...</p >
+      </div>
     </section>
   </main>
 
